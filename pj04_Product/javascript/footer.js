@@ -9,59 +9,59 @@ const createFooter = () => {
             <ul class="category">
                 <li class="category-title">Nuts and Berries</li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Almonds </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Walnuts </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Brazil Nuts </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Cashew </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts</a>
+                    <a href="#" class="footer-link">Cranberry</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">GojiBerry</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">Macadamia</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">Orange</a>
                 </li>
             </ul>
 
             <ul class="category">
-                <li class="category-title">Nuts and Berries</li>
+                <li class="category-title">Berries and Nuts</li>
                 <li>
-                    <a href="#" class="footer-link">Nuts</a>
+                    <a href="#" class="footer-link">Kiwi</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Dried Grapes </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Peanuts </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Pecans </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts </a>
+                    <a href="#" class="footer-link">Pili Nuts </a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">Pistachio</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">Pumpkin Seed</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Nuts</a>
+                    <a href="#" class="footer-link">Strawberry</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Berries</a>
+                    <a href="#" class="footer-link">Sunflower Seeds</a>
                 </li>
                 
             </ul>

@@ -21,26 +21,27 @@ const createNav = () => {
         </div>
         <a href="#">
             <img src="img/avatar.png" alt="clothes">
-        </a><a href="#">
-            <img src="img/cart.png" alt="clothes">
+        </a>
+        <a href="#">
+            <img src="img/cart.png" alt="healthy nuts and berries">
         </a>
         </div>
         </div>
         <ul class="links-container">
         <li class="link-items">
-            <a href="" class="link">home</a>
+        <a href="../pj04_Product/index.html" class="link">home</a>
         </li>
         <li class="link-items">
-            <a href="" class="link">women</a>
+        <a href="../pj04_Product/product.html" class="link">products</a>
         </li>
         <li class="link-items">
-            <a href="" class="link">men</a>
+        <a href="../pj04_Product/nuts.html" class="link">Nuts</a>
         </li>
         <li class="link-items">
-            <a href="" class="link">kids</a>
+        <a href="../pj04_Product/berries.html" class="link">Berries</a>
         </li>
         <li class="link-items">
-            <a href="" class="link">accessories</a>
+            <a href="../pj04_Product/404.html" class="link">Items</a>
         </li>
         </ul>
     `;

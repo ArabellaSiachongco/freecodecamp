@@ -1,194 +1,173 @@
 <!-- technical documentation  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<title>Technical Documentation Of HTML</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Technical Documentation Of HTML</title>
+  </head>
+  <body>
     <!-- navigation sa left side  -->
     <nav id="navbar">
-        <header>HTML</header>
-        <ul>
-            <li>
-                <a class="nav-link" 
-                href="#introduction"
-                >Introduction
-                </a>
-            </li>
-            <li>
-                <a class="nav-link" 
-                href="#what_you_should_already_know"
-                >What you should already know
-                </a>
-            </li>
-            <li>
-                <a class="nav-link" 
-                href="#The_target_attribute"
-                >The Target Attribute
-                </a>
-            </li>
-            <li>
-                <a class="nav-link" 
-                href="#Favicon"
-                >Favicon
-                </a>
-            </li>
-            <li>
-                <a class="nav-link" 
-                href="#Syntax"
-                >Images Syntax
-            </a>
-            </li>
-        </ul>
+      <header>HTML</header>
+      <ul>
+        <li class="list">
+          <a class="nav-link" href="#introduction">Introduction </a>
+        </li>
+        <li class="list">
+          <a class="nav-link" href="#what_you_should_already_know"
+            >What you should already know
+          </a>
+        </li>
+        <li class="list">
+          <a class="nav-link" href="#The_target_attribute"
+            >The Target Attribute
+          </a>
+        </li>
+        <li class="list">
+          <a class="nav-link" href="#Favicon">Favicon </a>
+        </li>
+        <li class="list">
+          <a class="nav-link" href="#Syntax">Images Syntax </a>
+        </li>
+      </ul>
     </nav>
 
     <!-- main page sa right side  -->
-<main id="main-doc">
-    <!-- introduction  -->
-    <section 
-        class="main-section" 
-        id="introduction">
+    <main id="main-doc">
+      <!-- introduction  -->
+      <section class="main-section" id="introduction">
         <header>Introduction</header>
         <article>
-        <p>
-            HTML is the standard markup language for creating Web pages.
-        </p>
-        <ul>
+          <p>HTML is the standard markup language for creating Web pages.</p>
+          <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
             <li>
-                HTML stands for Hyper Text Markup Language
+              HTML elements label pieces of content such as "this is a heading",
+              "this is a paragraph", "this is a link"
             </li>
-            <li>
-                HTML is the standard markup language for creating Web pages
-            </li>
-            <li>
-                HTML describes the structure of a Web page
-            </li>
-            <li>
-                HTML consists of a series of elements
-            </li>
-            <li>
-                HTML elements tell the browser how to display the content
-            </li>
-            <li>
-                HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link"
-            </li>
-        </ul>
-        
-        <p>The < !DOCTYPE html > declaration defines that this document is an HTML5 document
-        </p>
+          </ul>
 
-        <code>< !DOCTYPE html >
-            < html >
-            < head >
-            < title >Page Title < / title >
-            < / head >
-            < body >
-            < h1>My First Heading < / h1 >
-            < p>My first paragraph.< / p >
-            < / body > 
-            < / html ></code>
+          <p>
+            The < !DOCTYPE html > declaration defines that this document is an
+            HTML5 document
+          </p>
+
+          <code
+            >< !DOCTYPE html > < html > < head > < title >Page Title < / title >
+            < / head > < body > < h1>My First Heading < / h1 > < p>My first
+            paragraph.< / p > < / body > < / html ></code
+          >
         </article>
-    </section>
+      </section>
 
-    <!-- already learn  -->
-    <section 
-        class="main-section" 
-        id="what_you_should_already_know">
+      <!-- already learn  -->
+      <section class="main-section" id="what_you_should_already_know">
         <header>What you should already know</header>
         <article>
-            <p>
-                The HTML anchor tag defines a hyperlink. The most important attribute of the anchor element is the href attribute, which indicates the link's destination.
-            </p>
-            <p>
-                It has the following syntax:
-            </p>
-        <code> a href="url">link text</code>
-        <ul>
+          <p>
+            The HTML anchor tag defines a hyperlink. The most important
+            attribute of the anchor element is the href attribute, which
+            indicates the link's destination.
+          </p>
+          <p>It has the following syntax:</p>
+          <code> a href="url">link text</code>
+          <ul>
             <li>
-            The link text is the part that will be visible to the reader.
+              The link text is the part that will be visible to the reader.
             </li>
-        </ul>
-    </article>
-    </section>
+          </ul>
+        </article>
+      </section>
 
-    <!-- target attribute -->
-    <section 
-        class="main-section" 
-        id="The_target_attribute">
+      <!-- target attribute -->
+      <section class="main-section" id="The_target_attribute">
         <header>The Target Attribute</header>
-    <article>
-        <p>
-            By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link. The target attribute specifies where to open the linked document. The target attribute can have one of the following values:
-        </p>
-        <ul>
+        <article>
+          <p>
+            By default, the linked page will be displayed in the current browser
+            window. To change this, you must specify another target for the
+            link. The target attribute specifies where to open the linked
+            document. The target attribute can have one of the following values:
+          </p>
+          <ul>
             <li>
-                <i style="color: red;  background-color: #f7f7f7;">_self </i> 
-                - Default. Opens the document in the same window/tab as it was clicked
-            </li>            
-            <li>
-                <i style="color: red;  background-color: #f7f7f7;">_blank </i> 
-                - Opens the document in a new window or tab
-            </li>           
-            <li>
-                <i style="color: red;  background-color: #f7f7f7;">_parent </i> 
-                - Opens the document in the parent frame
+              <i style="color: red; background-color: #f7f7f7">_self </i>
+              - Default. Opens the document in the same window/tab as it was
+              clicked
             </li>
             <li>
-                <i style="color: red;  background-color: #f7f7f7;">_top </i>
-                - Opens the document in the full body of the window
+              <i style="color: red; background-color: #f7f7f7">_blank </i>
+              - Opens the document in a new window or tab
             </li>
-        </ul>
-        <code> a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</code>
-    </article>
-    </section>
-    <!-- favicon -->
-    <section 
-        class="main-section"
-        id="Favicon">
+            <li>
+              <i style="color: red; background-color: #f7f7f7">_parent </i>
+              - Opens the document in the parent frame
+            </li>
+            <li>
+              <i style="color: red; background-color: #f7f7f7">_top </i>
+              - Opens the document in the full body of the window
+            </li>
+          </ul>
+          <code>
+            a href="https://www.w3schools.com/" target="_blank">Visit
+            W3Schools!</code
+          >
+        </article>
+      </section>
+      <!-- favicon -->
+      <section class="main-section" id="Favicon">
         <header>The Favicon</header>
-    <article>
-        <p>
-            To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
-        </p>
-        <p>
-            A favicon is a small image displayed next to the page title in the browser tab.
-        </p>
-        <ul>
+        <article>
+          <p>
+            To add a favicon to your website, either save your favicon image to
+            the root directory of your webserver, or create a folder in the root
+            directory called images, and save your favicon image in this folder.
+            A common name for a favicon image is "favicon.ico".
+          </p>
+          <p>
+            A favicon is a small image displayed next to the page title in the
+            browser tab.
+          </p>
+          <ul>
             <li>
-                Add a link element to your "index.html" file, after the title element, like this:
+              Add a link element to your "index.html" file, after the title
+              element, like this:
             </li>
-        </ul>
-        <code>link rel="icon" type="image/x-icon" href="/images/favicon.ico"</code>
-    </article>
-    </section>
-    <!-- html syntax  -->
-    <section 
-    class="main-section" 
-    id="Syntax">
+          </ul>
+          <code
+            >link rel="icon" type="image/x-icon"
+            href="/images/favicon.ico"</code
+          >
+        </article>
+      </section>
+      <!-- html syntax  -->
+      <section class="main-section" id="Syntax">
         <header>HTML Images Syntax</header>
-    <article>
-        <p>
-            The HTML img tag is used to embed an image in a web page.
-        </p>
-        <p>
-            Images are not technically inserted into a web page; images are linked to web pages. The img tag creates a holding space for the referenced image.
-        </p>   
-        <p>
-            The img tag is empty, it contains attributes only, and does not have a closing tag.
-        </p>
-        <p>
-            The img tag has two required attributes:
-        </p>
-        <ul>
+        <article>
+          <p>The HTML img tag is used to embed an image in a web page.</p>
+          <p>
+            Images are not technically inserted into a web page; images are
+            linked to web pages. The img tag creates a holding space for the
+            referenced image.
+          </p>
+          <p>
+            The img tag is empty, it contains attributes only, and does not have
+            a closing tag.
+          </p>
+          <p>The img tag has two required attributes:</p>
+          <ul>
             <li>src - Specifies the path to the image</li>
             <li>alt - Specifies an alternate text for the image</li>
-        </ul>
-        <code> img src="url" alt="alternatetext"</code>
-    </article>
-    </section>
-</main>
-</body>
+          </ul>
+          <code> img src="url" alt="alternatetext"</code>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>

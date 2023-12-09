@@ -2,8 +2,8 @@ html,
 body {
   min-width: 290px;
   color: #4d4e53;
-  background-color: #fff5e5;
-  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #ffbe98;
+  font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -15,7 +15,7 @@ body {
   width: 300px;
   height: 100%;
   border-right: solid;
-  border-color: rgb(155, 155, 155);
+  border-color: #f9ebdb;
 }
 
 header {
@@ -38,8 +38,12 @@ header {
   overflow-x: hidden;
 }
 
+ul .list:hover {
+  background-color: #f9ebdb;
+}
+
 #navbar li {
-  color: #4d4e53;
+  color: #f9ebdb;
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -49,7 +53,7 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
@@ -62,7 +66,7 @@ header {
 }
 
 section article {
-  color: #4d4e53;
+  color: black;
   margin: 15px;
   font-size: 0.96em;
 }
@@ -79,7 +83,7 @@ code {
   word-break: normal;
   word-wrap: normal;
   line-height: 2;
-  background-color: #f7f7f7;
+  background-color: #f9ebdb;
   padding: 15px;
   margin: 10px;
   border-radius: 5px;

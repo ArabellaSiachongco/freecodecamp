@@ -32,16 +32,16 @@ const createNav = () => {
         <a href="../pj04_Product/index.html" class="link">home</a>
         </li>
         <li class="link-items">
-        <a href="../pj04_Product/product.html" class="link">products</a>
+        <a href="./html/product.html" class="link">products</a>
         </li>
         <li class="link-items">
-        <a href="../pj04_Product/nuts.html" class="link">Nuts</a>
+        <a href="./html/nuts.html" class="link">berries</a>
         </li>
         <li class="link-items">
-        <a href="../pj04_Product/berries.html" class="link">Berries</a>
+        <a href="./html/berries.html" class="link">nuts</a>
         </li>
         <li class="link-items">
-            <a href="../pj04_Product/404.html" class="link">Items</a>
+        <a href="./html/404.html" class="link">items</a>
         </li>
         </ul>
     `;
